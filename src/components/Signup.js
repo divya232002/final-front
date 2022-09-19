@@ -51,9 +51,7 @@ export default function Signup() {
             <button className='btn btn-primary' style={{marginLeft:'25%'}}>Log in</button>
           </form>
         </div>
-        
-        <NewSignUp />
-       
+ 
     </Modal>
         <Modal
         isOpen={IsCreateAccountOpen}
