@@ -3,7 +3,6 @@ import { useState} from 'react'
 import '../styles/Details.css'
 import image from '../Assets/image.jpg'
 import Modal from 'react-modal'
-import FacebookLogin from 'react-facebook-login';
 import NewSignUp from './NewSignUp'
 import  "@fortawesome/free-solid-svg-icons"
 
@@ -52,17 +51,7 @@ export default function Signup() {
             <button className='btn btn-primary' style={{marginLeft:'25%'}}>Log in</button>
           </form>
         </div>
-        <div style={{display: 'flex',  justifyContent:'center'}}>
-          <FacebookLogin
-            cssClass='btn btn-light  text-primary '
-            icon="fa-brands fa-facebook"
-            appId='3336055583291782'
-            autoLoad={false}
-            fields='name,email,picture'
-            callback={fbcallback}
-            
-          />
-        </div>
+        
         <NewSignUp />
        
     </Modal>
