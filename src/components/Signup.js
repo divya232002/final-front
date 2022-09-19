@@ -3,7 +3,6 @@ import { useState} from 'react'
 import '../styles/Details.css'
 import image from '../Assets/image.jpg'
 import Modal from 'react-modal'
-import NewSignUp from './NewSignUp'
 import  "@fortawesome/free-solid-svg-icons"
 
 
